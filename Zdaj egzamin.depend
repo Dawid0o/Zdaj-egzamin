@@ -1709,8 +1709,9 @@
 1587560968 c:\users\len\desktop\wx\dev\wxwidgets-3.0.5\include\wx\univ\theme.h
 	"wx/string.h"
 
-1716827020 c:\users\len\desktop\projekt po\zdaj egzamin\zdaj_egzaminmain.h
+1716905598 c:\users\len\desktop\projekt po\zdaj egzamin\zdaj_egzaminmain.h
 	<wx/wx.h>
+	<wx/sound.h>
 	<vector>
 
 1587560968 c:\users\len\desktop\wx\dev\wxwidgets-3.0.5\include\wx\wx.h
@@ -2950,7 +2951,7 @@
 1587560968 c:\users\len\desktop\wx\dev\wxwidgets-3.0.5\include\wx\cocoa\mdi.h
 	"wx/frame.h"
 
-1716828217 source:c:\users\len\desktop\projekt po\zdaj egzamin\zdaj_egzaminmain.cpp
+1716904096 source:c:\users\len\desktop\projekt po\zdaj egzamin\zdaj_egzaminmain.cpp
 	<wx/wx.h>
 	<wx/textfile.h>
 	<wx/datetime.h>
@@ -2988,4 +2989,29 @@
 	"wx/convauto.h"
 	"wx/string.h"
 	"wx/dynarray.h"
+
+1587560968 c:\users\len\desktop\wx\dev\wxwidgets-3.0.5\include\wx\sound.h
+	"wx/defs.h"
+	"wx/object.h"
+	"wx/msw/sound.h"
+	"wx/cocoa/sound.h"
+	"wx/osx/sound.h"
+	"wx/os2/sound.h"
+	"wx/unix/sound.h"
+
+1587560968 c:\users\len\desktop\wx\dev\wxwidgets-3.0.5\include\wx\msw\sound.h
+
+1587560968 c:\users\len\desktop\wx\dev\wxwidgets-3.0.5\include\wx\cocoa\sound.h
+	"wx/object.h"
+	"wx/cocoa/ObjcRef.h"
+
+1587560968 c:\users\len\desktop\wx\dev\wxwidgets-3.0.5\include\wx\osx\sound.h
+	"wx/object.h"
+
+1587560968 c:\users\len\desktop\wx\dev\wxwidgets-3.0.5\include\wx\os2\sound.h
+	"wx/object.h"
+
+1587560968 c:\users\len\desktop\wx\dev\wxwidgets-3.0.5\include\wx\unix\sound.h
+	"wx/defs.h"
+	"wx/object.h"
 
