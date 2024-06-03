@@ -1,66 +1,93 @@
 # depslib dependency file v1.0
-1584209018 source:c:\users\len\desktop\projekt po\zdaj egzamin\resource.rc
-	"wx/msw/wx.rc"
+1717418366 source:c:\users\len\desktop\projekt po\zdaj egzamin v2\1\_main.cpp
+	"_Main.h"
+	"HistoryFrame.h"
+	<wx/sizer.h>
+	<wx/statbmp.h>
 
-1587560968 c:\users\len\desktop\wx\dev\wxwidgets-3.0.5\include\wx\msw\wx.rc
-	<windows.h>
-	"wx/msw/wince/wince.rc"
-	"wx/msw/rcdefs.h"
-
-1587560968 c:\users\len\desktop\wx\dev\wxwidgets-3.0.5\include\wx\msw\wince\wince.rc
-	<commctrl.h>
-	"wx/msw/wince/resources.h"
-	"wx/msw/wince/smartphone.rc"
-
-1587560968 c:\users\len\desktop\wx\dev\wxwidgets-3.0.5\include\wx\msw\wince\resources.h
-
-1587560968 c:\users\len\desktop\wx\dev\wxwidgets-3.0.5\include\wx\msw\wince\smartphone.rc
-	<aygshell.h>
-
-1587560968 c:\users\len\desktop\wx\dev\wxwidgets-3.0.5\include\wx\msw\rcdefs.h
-
-1716811736 source:c:\users\len\desktop\projekt po\zdaj egzamin\zdaj_egzaminapp.cpp
-	"Zdaj_egzaminApp.h"
-
-1716810596 c:\users\len\desktop\projekt po\zdaj egzamin\zdaj_egzaminapp.h
+1717418366 c:\users\len\desktop\projekt po\zdaj egzamin v2\1\_main.h
 	<wx/wx.h>
-	"Zdaj_egzaminMain.h"
 
-1587560968 c:\users\len\desktop\wx\dev\wxwidgets-3.0.5\include\wx\app.h
-	"wx/event.h"
-	"wx/eventfilter.h"
-	"wx/build.h"
-	"wx/cmdargs.h"
-	"wx/init.h"
+1587560968 c:\users\len\desktop\wx\dev\wxwidgets-3.0.5\include\wx\wx.h
+	"wx/defs.h"
+	"wx/object.h"
+	"wx/dynarray.h"
+	"wx/list.h"
+	"wx/hash.h"
+	"wx/string.h"
+	"wx/hashmap.h"
+	"wx/arrstr.h"
 	"wx/intl.h"
 	"wx/log.h"
-	"wx/unix/app.h"
-	"wx/msw/app.h"
-	"wx/motif/app.h"
-	"wx/dfb/app.h"
-	"wx/gtk/app.h"
-	"wx/gtk1/app.h"
-	"wx/x11/app.h"
-	"wx/osx/app.h"
-	"wx/cocoa/app.h"
-	"wx/os2/app.h"
-	"wx/univ/theme.h"
-
-1587560968 c:\users\len\desktop\wx\dev\wxwidgets-3.0.5\include\wx\event.h
-	"wx/defs.h"
-	"wx/cpp.h"
-	"wx/object.h"
-	"wx/clntdata.h"
+	"wx/event.h"
+	"wx/app.h"
+	"wx/utils.h"
+	"wx/stream.h"
+	"wx/memory.h"
+	"wx/math.h"
+	"wx/stopwatch.h"
+	"wx/timer.h"
+	"wx/module.h"
+	"wx/wxcrt.h"
+	"wx/wxcrtvararg.h"
+	"wx/window.h"
+	"wx/containr.h"
+	"wx/panel.h"
+	"wx/toplevel.h"
+	"wx/frame.h"
 	"wx/gdicmn.h"
+	"wx/gdiobj.h"
+	"wx/region.h"
+	"wx/bitmap.h"
+	"wx/image.h"
+	"wx/colour.h"
+	"wx/font.h"
+	"wx/dc.h"
+	"wx/dcclient.h"
+	"wx/dcmemory.h"
+	"wx/dcprint.h"
+	"wx/dcscreen.h"
+	"wx/button.h"
+	"wx/menuitem.h"
+	"wx/menu.h"
+	"wx/pen.h"
+	"wx/brush.h"
+	"wx/palette.h"
+	"wx/icon.h"
 	"wx/cursor.h"
-	"wx/mousestate.h"
-	"wx/dynarray.h"
-	"wx/thread.h"
-	"wx/tracker.h"
-	"wx/typeinfo.h"
-	"wx/any.h"
-	"wx/meta/convertible.h"
-	"wx/meta/removeref.h"
+	"wx/dialog.h"
+	"wx/settings.h"
+	"wx/msgdlg.h"
+	"wx/dataobj.h"
+	"wx/control.h"
+	"wx/ctrlsub.h"
+	"wx/bmpbuttn.h"
+	"wx/checkbox.h"
+	"wx/checklst.h"
+	"wx/choice.h"
+	"wx/scrolbar.h"
+	"wx/stattext.h"
+	"wx/statbmp.h"
+	"wx/statbox.h"
+	"wx/listbox.h"
+	"wx/radiobox.h"
+	"wx/radiobut.h"
+	"wx/textctrl.h"
+	"wx/slider.h"
+	"wx/gauge.h"
+	"wx/scrolwin.h"
+	"wx/dirdlg.h"
+	"wx/toolbar.h"
+	"wx/combobox.h"
+	"wx/layout.h"
+	"wx/sizer.h"
+	"wx/statusbr.h"
+	"wx/choicdlg.h"
+	"wx/textdlg.h"
+	"wx/filedlg.h"
+	"wx/mdi.h"
+	"wx/validate.h"
+	"wx/valtext.h"
 
 1587560968 c:\users\len\desktop\wx\dev\wxwidgets-3.0.5\include\wx\defs.h
 	"wx/platform.h"
@@ -552,6 +579,27 @@
 	<stdlib.h>
 	<crtdbg.h>
 
+1587560968 c:\users\len\desktop\wx\dev\wxwidgets-3.0.5\include\wx\hash.h
+	"wx/defs.h"
+	"wx/string.h"
+	"wx/object.h"
+
+1587560968 c:\users\len\desktop\wx\dev\wxwidgets-3.0.5\include\wx\event.h
+	"wx/defs.h"
+	"wx/cpp.h"
+	"wx/object.h"
+	"wx/clntdata.h"
+	"wx/gdicmn.h"
+	"wx/cursor.h"
+	"wx/mousestate.h"
+	"wx/dynarray.h"
+	"wx/thread.h"
+	"wx/tracker.h"
+	"wx/typeinfo.h"
+	"wx/any.h"
+	"wx/meta/convertible.h"
+	"wx/meta/removeref.h"
+
 1587560968 c:\users\len\desktop\wx\dev\wxwidgets-3.0.5\include\wx\clntdata.h
 	"wx/defs.h"
 	"wx/string.h"
@@ -721,11 +769,6 @@
 
 1587560968 c:\users\len\desktop\wx\dev\wxwidgets-3.0.5\include\wx\gtk1\font.h
 	"wx/hash.h"
-
-1587560968 c:\users\len\desktop\wx\dev\wxwidgets-3.0.5\include\wx\hash.h
-	"wx/defs.h"
-	"wx/string.h"
-	"wx/object.h"
 
 1587560968 c:\users\len\desktop\wx\dev\wxwidgets-3.0.5\include\wx\x11\font.h
 
@@ -1237,6 +1280,26 @@
 
 1587560968 c:\users\len\desktop\wx\dev\wxwidgets-3.0.5\include\wx\meta\removeref.h
 
+1587560968 c:\users\len\desktop\wx\dev\wxwidgets-3.0.5\include\wx\app.h
+	"wx/event.h"
+	"wx/eventfilter.h"
+	"wx/build.h"
+	"wx/cmdargs.h"
+	"wx/init.h"
+	"wx/intl.h"
+	"wx/log.h"
+	"wx/unix/app.h"
+	"wx/msw/app.h"
+	"wx/motif/app.h"
+	"wx/dfb/app.h"
+	"wx/gtk/app.h"
+	"wx/gtk1/app.h"
+	"wx/x11/app.h"
+	"wx/osx/app.h"
+	"wx/cocoa/app.h"
+	"wx/os2/app.h"
+	"wx/univ/theme.h"
+
 1587560968 c:\users\len\desktop\wx\dev\wxwidgets-3.0.5\include\wx\eventfilter.h
 	"wx/defs.h"
 
@@ -1708,92 +1771,6 @@
 
 1587560968 c:\users\len\desktop\wx\dev\wxwidgets-3.0.5\include\wx\univ\theme.h
 	"wx/string.h"
-
-1716905598 c:\users\len\desktop\projekt po\zdaj egzamin\zdaj_egzaminmain.h
-	<wx/wx.h>
-	<wx/sound.h>
-	<vector>
-
-1587560968 c:\users\len\desktop\wx\dev\wxwidgets-3.0.5\include\wx\wx.h
-	"wx/defs.h"
-	"wx/object.h"
-	"wx/dynarray.h"
-	"wx/list.h"
-	"wx/hash.h"
-	"wx/string.h"
-	"wx/hashmap.h"
-	"wx/arrstr.h"
-	"wx/intl.h"
-	"wx/log.h"
-	"wx/event.h"
-	"wx/app.h"
-	"wx/utils.h"
-	"wx/stream.h"
-	"wx/memory.h"
-	"wx/math.h"
-	"wx/stopwatch.h"
-	"wx/timer.h"
-	"wx/module.h"
-	"wx/wxcrt.h"
-	"wx/wxcrtvararg.h"
-	"wx/window.h"
-	"wx/containr.h"
-	"wx/panel.h"
-	"wx/toplevel.h"
-	"wx/frame.h"
-	"wx/gdicmn.h"
-	"wx/gdiobj.h"
-	"wx/region.h"
-	"wx/bitmap.h"
-	"wx/image.h"
-	"wx/colour.h"
-	"wx/font.h"
-	"wx/dc.h"
-	"wx/dcclient.h"
-	"wx/dcmemory.h"
-	"wx/dcprint.h"
-	"wx/dcscreen.h"
-	"wx/button.h"
-	"wx/menuitem.h"
-	"wx/menu.h"
-	"wx/pen.h"
-	"wx/brush.h"
-	"wx/palette.h"
-	"wx/icon.h"
-	"wx/cursor.h"
-	"wx/dialog.h"
-	"wx/settings.h"
-	"wx/msgdlg.h"
-	"wx/dataobj.h"
-	"wx/control.h"
-	"wx/ctrlsub.h"
-	"wx/bmpbuttn.h"
-	"wx/checkbox.h"
-	"wx/checklst.h"
-	"wx/choice.h"
-	"wx/scrolbar.h"
-	"wx/stattext.h"
-	"wx/statbmp.h"
-	"wx/statbox.h"
-	"wx/listbox.h"
-	"wx/radiobox.h"
-	"wx/radiobut.h"
-	"wx/textctrl.h"
-	"wx/slider.h"
-	"wx/gauge.h"
-	"wx/scrolwin.h"
-	"wx/dirdlg.h"
-	"wx/toolbar.h"
-	"wx/combobox.h"
-	"wx/layout.h"
-	"wx/sizer.h"
-	"wx/statusbr.h"
-	"wx/choicdlg.h"
-	"wx/textdlg.h"
-	"wx/filedlg.h"
-	"wx/mdi.h"
-	"wx/validate.h"
-	"wx/valtext.h"
 
 1587560968 c:\users\len\desktop\wx\dev\wxwidgets-3.0.5\include\wx\module.h
 	"wx/object.h"
@@ -2951,32 +2928,42 @@
 1587560968 c:\users\len\desktop\wx\dev\wxwidgets-3.0.5\include\wx\cocoa\mdi.h
 	"wx/frame.h"
 
-1716904096 source:c:\users\len\desktop\projekt po\zdaj egzamin\zdaj_egzaminmain.cpp
+1584209018 source:c:\users\len\desktop\projekt po\zdaj egzamin v2\1\resource.rc
+	"wx/msw/wx.rc"
+
+1587560968 c:\users\len\desktop\wx\dev\wxwidgets-3.0.5\include\wx\msw\wx.rc
+	<windows.h>
+	"wx/msw/wince/wince.rc"
+	"wx/msw/rcdefs.h"
+
+1587560968 c:\users\len\desktop\wx\dev\wxwidgets-3.0.5\include\wx\msw\wince\wince.rc
+	<commctrl.h>
+	"wx/msw/wince/resources.h"
+	"wx/msw/wince/smartphone.rc"
+
+1587560968 c:\users\len\desktop\wx\dev\wxwidgets-3.0.5\include\wx\msw\wince\resources.h
+
+1587560968 c:\users\len\desktop\wx\dev\wxwidgets-3.0.5\include\wx\msw\wince\smartphone.rc
+	<aygshell.h>
+
+1587560968 c:\users\len\desktop\wx\dev\wxwidgets-3.0.5\include\wx\msw\rcdefs.h
+
+1717418366 source:c:\users\len\desktop\projekt po\zdaj egzamin v2\1\_app.cpp
+	"_App.h"
+	"_Main.h"
+
+1717418366 c:\users\len\desktop\projekt po\zdaj egzamin v2\1\_app.h
 	<wx/wx.h>
+
+1717418366 c:\users\len\desktop\projekt po\zdaj egzamin v2\1\historyframe.h
+	<wx/wx.h>
+
+1717418568 source:c:\users\len\desktop\projekt po\zdaj egzamin v2\1\historyframe.cpp
+	"HistoryFrame.h"
+	"_Main.h"
+	<wx/sizer.h>
+	<wx/statbmp.h>
 	<wx/textfile.h>
-	<wx/datetime.h>
-	<wx/textdlg.h>
-	<vector>
-	<utility>
-	"Zdaj_egzaminMain.h"
-
-1587560968 c:\users\len\desktop\wx\dev\wxwidgets-3.0.5\include\wx\stdpaths.h
-	"wx/defs.h"
-	"wx/string.h"
-	"wx/filefn.h"
-	"wx/msw/stdpaths.h"
-	"wx/osx/core/stdpaths.h"
-	"wx/os2/stdpaths.h"
-	"wx/unix/stdpaths.h"
-
-1587560968 c:\users\len\desktop\wx\dev\wxwidgets-3.0.5\include\wx\msw\stdpaths.h
-
-1587560968 c:\users\len\desktop\wx\dev\wxwidgets-3.0.5\include\wx\osx\core\stdpaths.h
-	"wx/unix/stdpaths.h"
-
-1587560968 c:\users\len\desktop\wx\dev\wxwidgets-3.0.5\include\wx\unix\stdpaths.h
-
-1587560968 c:\users\len\desktop\wx\dev\wxwidgets-3.0.5\include\wx\os2\stdpaths.h
 
 1587560968 c:\users\len\desktop\wx\dev\wxwidgets-3.0.5\include\wx\textfile.h
 	"wx/defs.h"
@@ -2989,29 +2976,4 @@
 	"wx/convauto.h"
 	"wx/string.h"
 	"wx/dynarray.h"
-
-1587560968 c:\users\len\desktop\wx\dev\wxwidgets-3.0.5\include\wx\sound.h
-	"wx/defs.h"
-	"wx/object.h"
-	"wx/msw/sound.h"
-	"wx/cocoa/sound.h"
-	"wx/osx/sound.h"
-	"wx/os2/sound.h"
-	"wx/unix/sound.h"
-
-1587560968 c:\users\len\desktop\wx\dev\wxwidgets-3.0.5\include\wx\msw\sound.h
-
-1587560968 c:\users\len\desktop\wx\dev\wxwidgets-3.0.5\include\wx\cocoa\sound.h
-	"wx/object.h"
-	"wx/cocoa/ObjcRef.h"
-
-1587560968 c:\users\len\desktop\wx\dev\wxwidgets-3.0.5\include\wx\osx\sound.h
-	"wx/object.h"
-
-1587560968 c:\users\len\desktop\wx\dev\wxwidgets-3.0.5\include\wx\os2\sound.h
-	"wx/object.h"
-
-1587560968 c:\users\len\desktop\wx\dev\wxwidgets-3.0.5\include\wx\unix\sound.h
-	"wx/defs.h"
-	"wx/object.h"
 

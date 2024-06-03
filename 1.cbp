@@ -2,12 +2,12 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="Zdaj egzamin" />
+		<Option title="1" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug">
-				<Option output="bin/Debug/Zdaj egzamin" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Debug/1" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
 				<Option type="0" />
 				<Option compiler="gcc" />
@@ -29,7 +29,7 @@
 				</Linker>
 			</Target>
 			<Target title="Release">
-				<Option output="bin/Release/Zdaj egzamin" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Release/1" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
 				<Option type="0" />
 				<Option compiler="gcc" />
@@ -67,20 +67,24 @@
 		<Linker>
 			<Add option="-mthreads" />
 		</Linker>
-		<Unit filename="Zdaj_egzaminApp.cpp" />
-		<Unit filename="Zdaj_egzaminApp.h" />
-		<Unit filename="Zdaj_egzaminMain.cpp" />
-		<Unit filename="Zdaj_egzaminMain.h" />
+		<Unit filename="AuthorsFrame.cpp" />
+		<Unit filename="AuthorsFrame.h" />
+		<Unit filename="HistoryFrame.cpp" />
+		<Unit filename="HistoryFrame.h" />
+		<Unit filename="_App.cpp" />
+		<Unit filename="_App.h" />
+		<Unit filename="_Main.cpp" />
+		<Unit filename="_Main.h" />
 		<Unit filename="resource.rc">
 			<Option compilerVar="WINDRES" />
 		</Unit>
-		<Unit filename="wxsmith/Zdaj_egzaminframe.wxs" />
+		<Unit filename="wxsmith/_frame.wxs" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 			<wxsmith version="1">
-				<gui name="wxWidgets" src="Zdaj_egzaminApp.cpp" main="Zdaj_egzaminFrame" init_handlers="necessary" language="CPP" />
+				<gui name="wxWidgets" src="_App.cpp" main="_Frame" init_handlers="necessary" language="CPP" />
 				<resources>
-					<wxFrame wxs="wxsmith/Zdaj_egzaminframe.wxs" src="Zdaj_egzaminMain.cpp" hdr="Zdaj_egzaminMain.h" fwddecl="0" i18n="1" name="Zdaj_egzaminFrame" language="CPP" />
+					<wxFrame wxs="wxsmith/_frame.wxs" src="_Main.cpp" hdr="_Main.h" fwddecl="0" i18n="1" name="_Frame" language="CPP" />
 				</resources>
 			</wxsmith>
 		</Extensions>
