@@ -9,9 +9,9 @@ public:
 
 private:
     void OnBackButton(wxCommandEvent& event);
+    wxStaticText* authorsText; // Declare the wxStaticText control
 
     wxDECLARE_EVENT_TABLE();
 };
 
 #endif // AUTHORS_FRAME_H
-

@@ -1,11 +1,12 @@
 # depslib dependency file v1.0
-1717418366 source:c:\users\len\desktop\projekt po\zdaj egzamin v2\1\_main.cpp
+1717503165 source:c:\users\len\desktop\projekt po\zdaj egzamin v2\1\_main.cpp
 	"_Main.h"
 	"HistoryFrame.h"
+	"AuthorsFrame.h"
 	<wx/sizer.h>
 	<wx/statbmp.h>
 
-1717418366 c:\users\len\desktop\projekt po\zdaj egzamin v2\1\_main.h
+1717497598 c:\users\len\desktop\projekt po\zdaj egzamin v2\1\_main.h
 	<wx/wx.h>
 
 1587560968 c:\users\len\desktop\wx\dev\wxwidgets-3.0.5\include\wx\wx.h
@@ -2948,17 +2949,17 @@
 
 1587560968 c:\users\len\desktop\wx\dev\wxwidgets-3.0.5\include\wx\msw\rcdefs.h
 
-1717418366 source:c:\users\len\desktop\projekt po\zdaj egzamin v2\1\_app.cpp
+1717497333 source:c:\users\len\desktop\projekt po\zdaj egzamin v2\1\_app.cpp
 	"_App.h"
 	"_Main.h"
 
-1717418366 c:\users\len\desktop\projekt po\zdaj egzamin v2\1\_app.h
+1717497333 c:\users\len\desktop\projekt po\zdaj egzamin v2\1\_app.h
 	<wx/wx.h>
 
-1717418366 c:\users\len\desktop\projekt po\zdaj egzamin v2\1\historyframe.h
+1717497333 c:\users\len\desktop\projekt po\zdaj egzamin v2\1\historyframe.h
 	<wx/wx.h>
 
-1717418568 source:c:\users\len\desktop\projekt po\zdaj egzamin v2\1\historyframe.cpp
+1717497333 source:c:\users\len\desktop\projekt po\zdaj egzamin v2\1\historyframe.cpp
 	"HistoryFrame.h"
 	"_Main.h"
 	<wx/sizer.h>
@@ -2976,4 +2977,13 @@
 	"wx/convauto.h"
 	"wx/string.h"
 	"wx/dynarray.h"
+
+1717503621 c:\users\len\desktop\projekt po\zdaj egzamin v2\1\authorsframe.h
+	<wx/wx.h>
+
+1717507805 source:c:\users\len\desktop\projekt po\zdaj egzamin v2\1\authorsframe.cpp
+	"AuthorsFrame.h"
+	"_Main.h"
+	<wx/sizer.h>
+	<wx/statbmp.h>
 

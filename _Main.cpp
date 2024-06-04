@@ -1,5 +1,7 @@
 #include "_Main.h"
 #include "HistoryFrame.h"
+#include "AuthorsFrame.h"  // Include this header
+
 #include <wx/sizer.h>
 #include <wx/statbmp.h>
 
@@ -74,7 +76,6 @@ void MyFrame::OnButton1(wxCommandEvent& event) {
 }
 
 void MyFrame::OnButton2(wxCommandEvent& event) {
-    {
     AuthorsFrame *authorsFrame = new AuthorsFrame("Autorzy");
     authorsFrame->ShowFullScreen(true);
     authorsFrame->Show(true);
