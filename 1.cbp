@@ -71,6 +71,10 @@
 		<Unit filename="AuthorsFrame.h" />
 		<Unit filename="HistoryFrame.cpp" />
 		<Unit filename="HistoryFrame.h" />
+		<Unit filename="QuizFrame.cpp" />
+		<Unit filename="QuizFrame.h" />
+		<Unit filename="SlideShowFrame.cpp" />
+		<Unit filename="SlideShowFrame.h" />
 		<Unit filename="_App.cpp" />
 		<Unit filename="_App.h" />
 		<Unit filename="_Main.cpp" />

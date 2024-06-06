@@ -1,9 +1,11 @@
 #include "_Main.h"
 #include "HistoryFrame.h"
-#include "AuthorsFrame.h"  // Include this header
-
+#include "AuthorsFrame.h"
+#include "SlideShowFrame.h"
+#include "QuizFrame.h"
 #include <wx/sizer.h>
 #include <wx/statbmp.h>
+#include <vector>
 
 wxBEGIN_EVENT_TABLE(MyFrame, wxFrame)
     EVT_BUTTON(1001, MyFrame::OnButton1)
@@ -12,8 +14,9 @@ wxBEGIN_EVENT_TABLE(MyFrame, wxFrame)
     EVT_BUTTON(1004, MyFrame::OnButton4)
 wxEND_EVENT_TABLE()
 
-MyFrame::MyFrame(const wxString& title) : wxFrame(NULL, wxID_ANY, title, wxDefaultPosition, wxGetDisplaySize(), wxDEFAULT_FRAME_STYLE | wxFULL_REPAINT_ON_RESIZE) {
-    wxPanel *panel = new wxPanel(this, wxID_ANY);
+MyFrame::MyFrame(const wxString& title)
+    : wxFrame(NULL, wxID_ANY, title, wxDefaultPosition, wxGetDisplaySize(), wxDEFAULT_FRAME_STYLE | wxFULL_REPAINT_ON_RESIZE) {
+    wxPanel* panel = new wxPanel(this, wxID_ANY);
     panel->SetSize(wxGetDisplaySize());
 
     const wxString basePath = wxT("C:/Users/Len/Desktop/Projekt PO/Zdaj egzamin v2/1/grafika/");
@@ -29,7 +32,7 @@ MyFrame::MyFrame(const wxString& title) : wxFrame(NULL, wxID_ANY, title, wxDefau
     bgImage = bgImage.Scale(displaySize.GetWidth(), displaySize.GetHeight());
     background = wxBitmap(bgImage);
 
-    wxStaticBitmap *backgroundBitmap = new wxStaticBitmap(panel, wxID_ANY, background, wxPoint(0, 0), displaySize);
+    wxStaticBitmap* backgroundBitmap = new wxStaticBitmap(panel, wxID_ANY, background, wxPoint(0, 0), displaySize);
 
     wxBitmap button1Image(basePath + wxT("start.jpg"), wxBITMAP_TYPE_JPEG);
     wxBitmap button2Image(basePath + wxT("Autorzy.jpg"), wxBITMAP_TYPE_JPEG);
@@ -54,12 +57,12 @@ MyFrame::MyFrame(const wxString& title) : wxFrame(NULL, wxID_ANY, title, wxDefau
     button4Image = wxBitmap(button4Img);
 
     int buttonXPos = (displaySize.GetWidth() - buttonSize.GetWidth()) / 2;
-    wxBitmapButton *button1 = new wxBitmapButton(panel, 1001, button1Image, wxPoint(buttonXPos, 400), buttonSize);
-    wxBitmapButton *button2 = new wxBitmapButton(panel, 1002, button2Image, wxPoint(buttonXPos, 500), buttonSize);
-    wxBitmapButton *button3 = new wxBitmapButton(panel, 1003, button3Image, wxPoint(buttonXPos, 600), buttonSize);
-    wxBitmapButton *button4 = new wxBitmapButton(panel, 1004, button4Image, wxPoint(buttonXPos, 700), buttonSize);
+    wxBitmapButton* button1 = new wxBitmapButton(panel, 1001, button1Image, wxPoint(buttonXPos, 400), buttonSize);
+    wxBitmapButton* button2 = new wxBitmapButton(panel, 1002, button2Image, wxPoint(buttonXPos, 500), buttonSize);
+    wxBitmapButton* button3 = new wxBitmapButton(panel, 1003, button3Image, wxPoint(buttonXPos, 600), buttonSize);
+    wxBitmapButton* button4 = new wxBitmapButton(panel, 1004, button4Image, wxPoint(buttonXPos, 700), buttonSize);
 
-    wxBoxSizer *mainSizer = new wxBoxSizer(wxVERTICAL);
+    wxBoxSizer* mainSizer = new wxBoxSizer(wxVERTICAL);
     mainSizer->Add(backgroundBitmap, 1, wxEXPAND | wxALL, 0);
 
     panel->SetSizerAndFit(mainSizer);
@@ -72,18 +75,27 @@ MyFrame::MyFrame(const wxString& title) : wxFrame(NULL, wxID_ANY, title, wxDefau
 }
 
 void MyFrame::OnButton1(wxCommandEvent& event) {
-    wxMessageBox("Zacznij grę clicked");
+    std::vector<wxString> imagePaths = {
+        "C:/Users/Len/Desktop/Projekt PO/Zdaj egzamin v2/1/grafika/dialog0.jpg",
+        "C:/Users/Len/Desktop/Projekt PO/Zdaj egzamin v2/1/grafika/dialog1.jpg",
+        "C:/Users/Len/Desktop/Projekt PO/Zdaj egzamin v2/1/grafika/dialog2.jpg"
+    };
+    SlideShowFrame* slideShowFrame = new SlideShowFrame("Slideshow");
+    slideShowFrame->LoadImages(imagePaths);
+    slideShowFrame->ShowFullScreen(true);
+    slideShowFrame->Show(true);
+    this->Hide();
 }
 
 void MyFrame::OnButton2(wxCommandEvent& event) {
-    AuthorsFrame *authorsFrame = new AuthorsFrame("Autorzy");
+    AuthorsFrame* authorsFrame = new AuthorsFrame("Autorzy");
     authorsFrame->ShowFullScreen(true);
     authorsFrame->Show(true);
     this->Hide();
 }
 
 void MyFrame::OnButton3(wxCommandEvent& event) {
-    HistoryFrame *historyFrame = new HistoryFrame("Historia Gier");
+    HistoryFrame* historyFrame = new HistoryFrame("Historia Gier");
     historyFrame->ShowFullScreen(true);
     historyFrame->Show(true);
     this->Hide();

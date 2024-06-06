@@ -31,20 +31,20 @@ AuthorsFrame::AuthorsFrame(const wxString& title) : wxFrame(NULL, wxID_ANY, titl
     wxButton *backButton = new wxButton(panel, 3001, "Powrot", buttonPos, buttonSize);
 
     // Add the wxStaticText for "Autorzy:" in the center
-    wxPoint textPos((displaySize.GetWidth() - 200) / 2, (displaySize.GetHeight() - 50) / 2);
-    authorsText = new wxStaticText(panel, wxID_ANY, "Autorzy:", textPos, wxSize(200, 50), wxALIGN_CENTER_HORIZONTAL | wxST_NO_AUTORESIZE);
+    wxSize textSize(200, 50);
+    wxPoint textPos((displaySize.GetWidth() - textSize.GetWidth()) / 2, (displaySize.GetHeight() - textSize.GetHeight()) / 2);
+    wxStaticText *authorsText = new wxStaticText(panel, wxID_ANY, "Autorzy:", textPos, textSize, wxALIGN_CENTER_HORIZONTAL | wxST_NO_AUTORESIZE);
     authorsText->SetForegroundColour(*wxBLACK);
     authorsText->SetBackgroundColour(wxColour(255, 255, 255, 200)); // semi-transparent background
 
+    // Use absolute positioning to ensure the text is centered
+    authorsText->SetPosition(wxPoint((displaySize.GetWidth() - authorsText->GetSize().GetWidth()) / 2, (displaySize.GetHeight() - authorsText->GetSize().GetHeight()) / 2));
+
     wxBoxSizer *mainSizer = new wxBoxSizer(wxVERTICAL);
     mainSizer->Add(backgroundBitmap, 1, wxEXPAND | wxALL, 0);
+    mainSizer->Add(backButton, 0, wxALIGN_CENTER_HORIZONTAL | wxBOTTOM, 10);
 
     panel->SetSizerAndFit(mainSizer);
-    mainSizer->Fit(this);
-
-    backButton->Raise();
-    authorsText->Raise();
-
     panel->Layout();  // Ensure the panel lays out the controls correctly
 }
 

@@ -1,12 +1,15 @@
 # depslib dependency file v1.0
-1717503165 source:c:\users\len\desktop\projekt po\zdaj egzamin v2\1\_main.cpp
+1717685161 source:c:\users\len\desktop\projekt po\zdaj egzamin v2\1\_main.cpp
 	"_Main.h"
 	"HistoryFrame.h"
 	"AuthorsFrame.h"
+	"SlideShowFrame.h"
+	"QuizFrame.h"
 	<wx/sizer.h>
 	<wx/statbmp.h>
+	<vector>
 
-1717497598 c:\users\len\desktop\projekt po\zdaj egzamin v2\1\_main.h
+1717684318 c:\users\len\desktop\projekt po\zdaj egzamin v2\1\_main.h
 	<wx/wx.h>
 
 1587560968 c:\users\len\desktop\wx\dev\wxwidgets-3.0.5\include\wx\wx.h
@@ -2949,17 +2952,17 @@
 
 1587560968 c:\users\len\desktop\wx\dev\wxwidgets-3.0.5\include\wx\msw\rcdefs.h
 
-1717497333 source:c:\users\len\desktop\projekt po\zdaj egzamin v2\1\_app.cpp
-	"_App.h"
+1717684336 source:c:\users\len\desktop\projekt po\zdaj egzamin v2\1\_app.cpp
+	<wx/wx.h>
 	"_Main.h"
 
 1717497333 c:\users\len\desktop\projekt po\zdaj egzamin v2\1\_app.h
 	<wx/wx.h>
 
-1717497333 c:\users\len\desktop\projekt po\zdaj egzamin v2\1\historyframe.h
+1717685088 c:\users\len\desktop\projekt po\zdaj egzamin v2\1\historyframe.h
 	<wx/wx.h>
 
-1717497333 source:c:\users\len\desktop\projekt po\zdaj egzamin v2\1\historyframe.cpp
+1717685088 source:c:\users\len\desktop\projekt po\zdaj egzamin v2\1\historyframe.cpp
 	"HistoryFrame.h"
 	"_Main.h"
 	<wx/sizer.h>
@@ -2981,9 +2984,43 @@
 1717503621 c:\users\len\desktop\projekt po\zdaj egzamin v2\1\authorsframe.h
 	<wx/wx.h>
 
-1717507805 source:c:\users\len\desktop\projekt po\zdaj egzamin v2\1\authorsframe.cpp
+1717521571 source:c:\users\len\desktop\projekt po\zdaj egzamin v2\1\authorsframe.cpp
 	"AuthorsFrame.h"
 	"_Main.h"
 	<wx/sizer.h>
 	<wx/statbmp.h>
+
+1717675147 c:\users\len\desktop\projekt po\zdaj egzamin v2\1\slideshowframe.h
+	<wx/wx.h>
+	<vector>
+
+1717685494 source:c:\users\len\desktop\projekt po\zdaj egzamin v2\1\slideshowframe.cpp
+	"SlideShowFrame.h"
+	"QuizFrame.h"
+
+1717685494 source:c:\users\len\desktop\projekt po\zdaj egzamin v2\1\quizframe.cpp
+	"QuizFrame.h"
+	"SubmitHandler.h"
+	<wx/sizer.h>
+	<wx/textctrl.h>
+	<fstream>
+	<sstream>
+	<iostream>
+	<ctime>
+
+1717675147 c:\users\len\desktop\projekt po\zdaj egzamin v2\1\quizframe.h
+	<wx/wx.h>
+	<vector>
+	<string>
+
+1717685618 source:c:\users\len\desktop\projekt po\zdaj egzamin v2\1\submithandler.cpp
+	"SubmitHandler.h"
+	"_Main.h"
+	<wx/sizer.h>
+	<wx/stattext.h>
+	<wx/statbmp.h>
+	<iostream>
+
+1717684020 c:\users\len\desktop\projekt po\zdaj egzamin v2\1\submithandler.h
+	<wx/wx.h>
 

@@ -1,5 +1,5 @@
-#ifndef HISTORY_FRAME_H
-#define HISTORY_FRAME_H
+#ifndef HISTORYFRAME_H
+#define HISTORYFRAME_H
 
 #include <wx/wx.h>
 
@@ -13,4 +13,4 @@ private:
     wxDECLARE_EVENT_TABLE();
 };
 
-#endif // HISTORY_FRAME_H
+#endif // HISTORYFRAME_H
