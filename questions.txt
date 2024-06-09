@@ -1,5 +1,10 @@
-What is the capital of France?|Paris
-What is 2 + 2?|4
-What is the chemical symbol for water?|H2O
-Who wrote 'To Kill a Mockingbird'?|Harper Lee
-What is the largest planet in our solar system?|Jupiter
+Czy funkcja realloc moze zadzialac jak funkcja malloc? (Prawda/Falsz)|Prawda
+Do wyluskania wskaznika dla danej zmiennej uzywamy symbolu:|&
+Rozmiar wskaznikow w systemie 64 bitowym to:|8 bajtow
+Czy nazwa tablicy jest wskaznikiem?(Prawda/Falsz)|Prawda
+Czy funkcja realloc moze zadzialac jak funkcja free?(Prawda/Falsz)|Prawda
+Operacja dodania nowego elementu do kolejki nosi nazwe:|enqueue
+Z klasycznej kolejki pobierany jest element:|najstarszy
+Jak nazywa sie mechanizm umozliwiajacy definiowanie roznych funkcji o tej samej nazwie?|Przeciazanie
+Jaki mechanizm w C++ pozwala klasie pochodnej na przejecie interfejsu i funkcjonalnosci klasy bazowej?|Dziedziczenie
+Co jest podstawowa jednostka abstrakcji w C++|Klasa
