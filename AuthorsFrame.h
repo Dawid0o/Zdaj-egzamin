@@ -9,7 +9,7 @@ public:
 
 private:
     void OnBackButton(wxCommandEvent& event);
-    wxStaticText* authorsText; // Declare the wxStaticText control
+    wxStaticText* authorsText; // Deklaracja kontrolki wxStaticText
 
     wxDECLARE_EVENT_TABLE();
 };
