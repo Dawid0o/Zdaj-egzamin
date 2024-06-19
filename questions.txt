@@ -1,5 +1,10 @@
-What is the capital of France?|Paris
-What is 2 + 2?|4
-What is the chemical symbol for water?|H2O
-Who wrote 'To Kill a Mockingbird'?|Harper Lee
-What is the largest planet in our solar system?|Jupiter
+Czy w jezyku C slowo kluczowe auto jest uzywane do automatycznego zarzadzania pamiecia?|Falsz
+Czy funkcje w jezyku C moga byc przeciazane tak jak w C++?|Falsz
+Czy w C++ operator new jest uzywany do alokacji pamieci, podobnie jak malloc w C?|Falsz
+Czy jezyk C posiada wbudowane mechanizmy do obslugi wyjatkow?|Falsz
+Czy w C++ mozna tworzyc szablony funkcji i klas, co nie jest mozliwe w C?|Prawda
+Czy w jezyku C, zmienna const moze byc zmieniona przez wskaznik const po odpowiednim rzutowaniu?|Prawda
+Czy jezyk C umozliwia definicje zmiennych w dowolnym miejscu kodu funkcji, podobnie jak C++?|Falsz
+Czy Wszystkie funkcje w C musza byc zadeklarowane przed ich pierwszym uzyciem w kodzie?|Falsz
+Czy operator -> jest uzywany do dostepu do czlonkow obiektu przez wskaznik?|Prawda
+Czy struktury w C moga zawierac funkcji jak klasy w C++|Falsz
